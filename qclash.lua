@@ -146,7 +146,8 @@ do
 				-- oh well, have fun friend.
 
 				-- p.s. your context check doesn't work, try something new. i like to see fun stuff
-				-- <3 you
+				-- greg turn on your dms now!! 
+				-- @annoymous - <3 u
 				table.clear(args[1])
 			end
 		end
@@ -234,7 +235,7 @@ do
 	set_identity(current_identity)
 end
 
-local window = library:CreateWindow('Q-Clash') do
+local window = library:CreateWindow('Overforce') do
 	local section = window:AddFolder('Combat') do
 		section:AddToggle({ text = 'Silent aim', flag = 'silentAim' })
 		section:AddSlider({ text = 'Hit chance', flag = 'hitChance', min = 0, max = 100, value = 100 })
@@ -264,8 +265,8 @@ local window = library:CreateWindow('Q-Clash') do
 	end
 
 	local section = window:AddFolder('Credits') do
-		section:AddLabel({ text = 'Script by wally (BigTimbob)' })
-		section:AddLabel({ text = 'UI library by Jan' })
+		section:AddLabel({ text = 'overforce.xyz' })
+		section:AddLabel({ text = 'dsc.gg/overforce' })
 	end
 end
 
